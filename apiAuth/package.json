@@ -1,0 +1,34 @@
+{
+  "author": {
+    "name": "Ryan McCarvill"
+  },
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "dependencies": {
+    "react-native": ">= 0.11.0"
+  },
+  "description": "A react native api_auth module",
+  "devDependencies": {},
+  "directories": {},
+
+  "keywords": [
+    "android",
+    "react-component",
+    "react-native"
+  ],
+  "license": "MIT",
+  "main": "index.android.js",
+  "maintainers": [
+    {
+      "name": "Ryan McCarvill",
+      "email": "ryan@disordinary.com"
+    }
+  ],
+  "name": "react-native-android-api_auth",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  
+  "scripts": {},
+  "version": "0.1.6"
+}
