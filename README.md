@@ -1,13 +1,16 @@
 # APIAuthAndroid
-React Native module for API_AUTH on Android.
+React Native module for the api_auth HMAC authentication system as specified by [mgomes](https://github.com/mgomes/)
+
+A rails server is located here: (https://github.com/mgomes/api_auth)
+A nodejs server is located here: (https://github.com/disordinary/node_api_auth_server)
 
 ```javascript
 
-var APIAUTH = require("./android/apiAuth");
+var APIAuth = require("./android/apiAuth");
 var access_id = 'ACCESS ID';
 var secret = 'SECRET';
 
-var apiAuth = new APIAUTH( access_id , secret );
+var apiAuth = new APIAuth( access_id , secret );
 	
 
 var options = {
